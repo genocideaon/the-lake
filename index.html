@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="th">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1486">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="description" content="The Lake คอนโดพร้อมอยู่ จังหวะใหม่ของชีวิตเมือง
+คอนโดเมืองที่ผสานความรื่นรมย์จากธรรมชาติ เข้ากับไลฟ์สไตล์ของคนเมืองได้อย่างลงตัว สะดวกสบายด้วย BTS สายสีเขียว ส่วนต่อขยายสถานีวุฒากาศ และ MRT สายสีน้ำเงิน">
+    <meta name="content owner" content="pf.co.th" />
+    <meta name="author" content="rgb72 co.,ltd.">
+    <meta name="og:title" content="Property Perfect The Lake" />
+    <meta name="og:description" content="The Lake คอนโดพร้อมอยู่ จังหวะใหม่ของชีวิตเมือง
+คอนโดเมืองที่ผสานความรื่นรมย์จากธรรมชาติ เข้ากับไลฟ์สไตล์ของคนเมืองได้อย่างลงตัว สะดวกสบายด้วย BTS สายสีเขียว ส่วนต่อขยายสถานีวุฒากาศ และ MRT สายสีน้ำเงิน" />
+    <meta name="og:image" content="images/pf-the-lake-fb.jpg" />
+    <meta name="og:site_name" content="Property Perfect The Lake" />
+    <meta name="og:type" content="website" />
+    <meta name="og:url" content="http://www.pf.co.th" />
+    <title>Property Perfect The Lake</title>
+    <!--[if IE]>
+    <script src="js/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+
+    <!-- Add fancyBox main JS and CSS files -->
+    <link rel="stylesheet" type="text/css" href="js/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+    <link rel="stylesheet" type="text/css" href="js/jquery-ui.css" media="screen" />
+
+
+    <!-- include jQuery + carouFredSel plugin -->
+    <script type="text/javascript" language="javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+
+    <script type="text/javascript" src="js/skrollr.min.js"></script>
+
+    <!-- optionally include helper plugins -->
+    <script type="text/javascript" language="javascript" src="js/helper-plugins/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/helper-plugins/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/helper-plugins/jquery.transit.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/helper-plugins/jquery.ba-throttle-debounce.min.js"></script>
+
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="js/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+
+
+    <script>
+
+        function isValidEmailAddress(emailAddress) {
+            var pattern = new RegExp(/^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i);
+            return pattern.test(emailAddress);
+        };
+        function theLakeInit() {
+            $('.main-header h2').css({right: '-200px'});
+            $('.main-header h1').css({left: '-150px'});
+            $('.main-header .main-nav').css({left: '-150px'});
+            $('.price').css({height: 0, top: 0});
+
+            $('.main-header h2').delay(500).animate({right: '38px'}, 500);
+            $('.main-header h1').delay(500).animate({left: '0'}, 500);
+            $('.main-header .main-nav').delay(500).animate({left: '0'}, 500);
+            $('.price').delay(500).animate({height: '82px', top: '-96px'});
+        }
+        $(document).ready(function() {
+            theLakeInit();
+
+            $("#mainGallery").carouFredSel({
+                auto: {
+                    delay           : 2000,
+                    duration        : 1000
+                },
+                responsive: true,
+                width: '100%',
+                prev: '#mainGalleryPrev',
+                next: '#mainGalleryNext'
+            });
+
+            $('#slide-unit').carouFredSel({
+                auto: false,
+                pagination: {
+                    container: "#pagi-slide-unit",
+                    anchorBuilder: false
+                }
+
+            });
+
+            $('#slide-unit2').carouFredSel({
+                auto: false,
+                pagination: {
+                    container: "#pagi-slide-unit2",
+                    anchorBuilder: false
+                }
+
+            });
+
+            $("#unitTypeDetail").carouFredSel({
+                auto: false,
+                pagination: {
+                    container: ".nav-unit-type ul",
+                    anchorBuilder: false
+                }
+            });
+
+            $("#infoContentSlide").carouFredSel({
+                auto: false,
+                prev: '#infoContentSlidePrev',
+                next: '#infoContentSlideNext',
+                scroll: {
+                    onBefore: function() {
+                        $('.pointer').hide();
+                        if ($('.project-info--gallery').css('display') !== 'none') {
+                            $('#projectInfoGalleryThumb>li').removeClass('selected');
+                            $('.project-info--gallery').slideUp();
+                        }
+                    }
+                }
+            });
+
+            $('.zoom-img').bind('click',function(){
+                var targetZ = $(this).attr('href');
+                $(targetZ).trigger('click');
+                return false;
+            });
+
+            $("#infoContentSlide2").bind('click', function() {
+                $("#infoContentSlide").trigger("slideTo", 1);
+                return false;
+            });
+            $("#infoContentSlide3").bind('click', function() {
+                $("#infoContentSlide").trigger("slideTo", 2);
+                return false;
+            });
+
+
+
+            $("#projectInfoGallery").carouFredSel({
+                auto: false,
+                responsive: true,
+                width: '100%',
+                pagination: {
+                    container: "#projectInfoGalleryThumb",
+                    anchorBuilder: false
+                },
+                scroll: {
+                    onBefore: function(data) {
+                        $('.pointer').attr('class', 'pointer ' + data.items.visible.attr('class'));
+                    },
+                    onAfter: function(data) {
+                        data.items.old.find('.js-show-content').css({top: '20px', opacity: '0'});
+                        data.items.visible.find('.js-show-content').animate({top: '0', opacity: '1'});
+                    }
+                },
+                onCreate: function() {
+                    $('.project-info--gallery').hide();
+                    $('.pointer').hide();
+                    $("#projectInfoGallery .js-show-content").css({top: '20px', opacity: '0'});
+                    $(".gallery1 .js-show-content").css({top: '0', opacity: '1'});
+
+                    $('#projectInfoGalleryThumb a').bind('click', function() {
+                        $('.pointer').show();
+                        $(".project-info--gallery").slideDown();
+                        $(this).parent().addClass('selected');
+                    });
+                }
+            });
+
+            $('.close-slide').bind('click',function(){
+                $('.project-info--gallery').slideUp(function(){
+                    $('#projectInfoGalleryThumb>li').removeClass('selected');
+                });
+
+                $('.pointer').hide();
+            });
+
+            $('#projectInfoGalleryThumb>li').removeClass('selected');
+
+            $('.header-footer h3 a').bind('click', function() {
+                $('.footer-project').slideToggle();
+                $('.footer-project').parent().toggleClass('active');
+                return false;
+            });
+
+            var menuActive = true;
+            var overviewTop = $('#content-overview').offset().top;
+            var infoTop = $('#content-info').offset().top;
+            var locationTop = $('#content-location').offset().top;
+            var unitTop = $('#content-unit').offset().top;
+            var promotionTop = $('#content-promotion').offset().top;
+            var contactTop = $('#content-contact').offset().top;
+
+            $('a[href^="#content"]').bind('click', function(event) {
+                event.preventDefault();
+                if (menuActive) {
+                    menuActive = false;
+                    var elementActive = 'a[href="' + $(this).attr('href') + '"]';
+
+                    $('.main-nav li').removeClass('active');
+                    $(elementActive).parent().addClass('active');
+                    $('html, body').animate({scrollTop: ($($(this).attr('href')).offset().top)}, 1000, function() {
+                        menuActive = true;
+                        disScroll = true;
+                        if ($(window).scrollTop() < 770) {
+                            $('.fixed-this').addClass('hide-app');
+                        } else {
+                            $('.fixed-this').removeClass('hide-app');
+                        }
+
+                    });
+
+
+                } else {
+
+                }
+
+            });
+
+            $(window).scroll(function() {
+
+                if (menuActive) {
+                    $('.main-nav li').removeClass('active');
+                    if ($(window).scrollTop() < 770) {
+                        $('.fixed-this').addClass('hide-app');
+                    } else {
+                        $('.fixed-this').removeClass('hide-app');
+                    }
+
+                    if($(window).scrollTop() < infoTop) {
+                        $('a[href="#content-overview"]').parent().addClass('active');
+                        $("#mainGallery").trigger("play");
+                    }else if($(window).scrollTop() < locationTop) {
+                        $('a[href="#content-info"]').parent().addClass('active');
+                        $("#mainGallery").trigger("pause");
+                    }else if($(window).scrollTop() < unitTop) {
+                        $('a[href="#content-location"]').parent().addClass('active');
+
+                        if ($('.project-info--gallery').css('display') !== 'none') {
+                            $('.project-info--gallery').slideUp();
+                            $('.pointer').hide();
+                            $('#projectInfoGalleryThumb li').removeClass('selected');
+                        }
+
+                    }else if($(window).scrollTop() < promotionTop) {
+                        $('a[href="#content-unit"]').parent().addClass('active');
+                    }else if($(window).scrollTop() < contactTop) {
+                        $('a[href="#content-promotion"]').parent().addClass('active');
+                    }else {
+                        $('a[href="#content-contact"]').parent().addClass('active');
+                    }
+                }
+
+            });
+            (function($, F) {
+                F.transitions.resizeIn = function() {
+                    var previous = F.previous,
+                        current = F.current,
+                        startPos = previous.wrap.stop(true).position(),
+                        endPos = $.extend({opacity: 1}, current.pos);
+
+                    startPos.width = previous.wrap.width();
+                    startPos.height = previous.wrap.height();
+
+                    previous.wrap.stop(true).trigger('onReset').remove();
+
+                    delete endPos.position;
+
+                    current.inner.hide();
+
+                    current.wrap.css(startPos).animate(endPos, {
+                        duration: current.nextSpeed,
+                        easing: current.nextEasing,
+                        step: F.transitions.step,
+                        complete: function() {
+                            F._afterZoomIn();
+
+                            current.inner.fadeIn("fast");
+                        }
+                    });
+                };
+
+            }(jQuery, jQuery.fancybox));
+
+            $('.fancybox').fancybox({
+                padding: 45,
+                nextMethod: 'resizeIn',
+                nextSpeed: 250,
+                prevMethod: false,
+                helpers : {
+                    title : {
+                        type : 'inside'
+                    },
+                    buttons	: {}
+                },
+
+                afterLoad : function() {
+                    this.title = (this.index + 1) + ' / ' + this.group.length + (this.title ? '  ' + this.title : '');
+                }
+            });
+
+            $('.fancybox3').fancybox({
+                padding: 0,
+                'closeBtn': false
+            });
+
+            $('.left-fancybox').fancybox({
+                padding: 0,
+                nextMethod: 'resizeIn',
+                nextSpeed: 250,
+                prevMethod: false
+            });
+
+            $(".datepicker").datepicker();
+
+            function timeValue() {
+                $('.timeInput').val($('.timeHour').val() + ':' + $('.timeMinute').val());
+            }
+
+            $('.timeInput').bind('click',function() {
+                $('.time-input').show();
+                timeValue();
+            });
+            $('.upHour').bind('click', function(event) {
+                event.preventDefault();
+                var hourVal = $('.timeHour').val();
+                hourVal++;
+                if (hourVal > 17)
+                    hourVal = 10;
+                $('.timeHour').val(hourVal);
+                timeValue();
+
+            });
+
+            $('.downHour').bind('click', function(event) {
+                event.preventDefault();
+                var hourVal = $('.timeHour').val();
+                hourVal--;
+                if (hourVal < 10)
+                    hourVal = 17;
+                $('.timeHour').val(hourVal);
+                timeValue();
+
+            });
+
+            $('.minuteZ').bind('click', function(event) {
+                event.preventDefault();
+                $(this).addClass('active');
+                $('.minuteH').removeClass('active');
+                $('.timeMinute').val('00');
+                timeValue();
+
+            });
+
+            $('.minuteH').bind('click', function(event) {
+                event.preventDefault();
+                $(this).addClass('active');
+                $('.minuteZ').removeClass('active');
+                $('.timeMinute').val('30');
+                timeValue();
+
+            });
+
+            $('.time-input').bind('mouseleave',function(){
+                $(this).hide();
+            });
+
+            $('#show-goo-m').bind('click',function(event){
+                event.preventDefault();
+                $('#content-goo-map').show();
+                $('.map-menu a').removeClass('active');
+                $(this).addClass('active');
+            });
+            $('#show-ghp-m').bind('click',function(event){
+                event.preventDefault();
+                $('#content-goo-map').hide();
+                $('.map-menu a').removeClass('active');
+                $(this).addClass('active');
+            });
+
+
+            var deviceAgent = navigator.userAgent.toLowerCase();
+            var agentID = deviceAgent.match(/(iphone|ipod|ipad)/);
+
+            var $window = $(window);
+
+            // Cache the Y offset and the speed of each sprite
+            $('[data-type]').each(function() {
+                $(this).data('offsetY', parseInt($(this).attr('data-offsetY')));
+                $(this).data('Xposition', $(this).attr('data-Xposition'));
+                $(this).data('speed', $(this).attr('data-speed'));
+            });
+
+            if (agentID) {
+                $('.project-info').css('background-attachment','scroll');
+                $('.unit-type').css('background-attachment','scroll');
+                $('.promotion').css('background-attachment','scroll');
+                $('.map').css('background-attachment','scroll');
+                $('.contact').css('background-attachment','scroll');
+
+            }
+
+            // For each element that has a data-type attribute
+            $('section[data-type="background"]').each(function(){
+
+
+                // Store some variables based on where we are
+                var $self = $(this),
+                    offsetCoords = $self.offset(),
+                    topOffset = offsetCoords.top;
+
+                // When the window is scrolled...
+                $(window).scroll(function() {
+
+                    if (agentID) {
+                        $('.project-info').css('background-attachment','scroll');
+                        $('.unit-type').css('background-attachment','scroll');
+                        $('.promotion').css('background-attachment','scroll');
+                        $('.map').css('background-attachment','scroll');
+                        $('.contact').css('background-attachment','scroll');
+
+                    }
+
+                    // If this section is in view
+                    else {
+                        if ( ($window.scrollTop() + $window.height()) > (topOffset) &&
+                            ( (topOffset + $self.height()) > $window.scrollTop() ) ) {
+
+                            // Scroll the background at var speed
+                            // the yPos is a negative value because we're scrolling it UP!
+                            var yPos = -($window.scrollTop() / $self.data('speed'));
+
+                            // If this element has a Y offset then add it on
+                            if ($self.data('offsetY')) {
+                                yPos += $self.data('offsetY');
+                            }
+
+                            // Put together our final background position
+                            var coords = '50% '+ yPos + 'px';
+
+                            // Move the background
+                            $self.css({ backgroundPosition: coords });
+
+                        }
+                    }// in view
+
+                }); // window scroll
+
+            });	// each data-type
+
+            $('#content-goo-map').hide();
+
+            $('.js-check-tel').bind('keypress',function(e){
+                return (e.which!=8&&e.which!=0&&(e.which<48||e.which>57))?false:true;
+            });
+
+
+            $('#content-contact').submit(function(){
+
+                if(!isValidEmailAddress($('.js-check-mail').val()) || $('.js-check-mail').val() == ""){
+
+                    $.fancybox.open('#popup-alert-mail');
+                    return false;
+                }
+                else{
+                    $.fancybox.open('#popup-thank');
+                    return false;
+                }
+            });
+
+            $('#popup-contact').submit(function(){
+
+                if(!isValidEmailAddress($('.js-check-mail').val()) || $('.js-check-mail').val() == ""){
+
+                    $.fancybox.open('#popup-alert-mail');
+                    return false;
+                }
+                else{
+                    $.fancybox.open('#popup-thank');
+                    return false;
+                }
+            });
+
+
+
+        });
+    </script>
+</head>
+<body>
+
+<!--main wrapper-->
+<div class="wrapper">
+    <!--header-->
+    <div class="wraper-header">
+        <header class="main-header">
+            <h1><a class="hd-t" href="javascript: void(0);">The Lake Sathorn</a></h1>
+            <h2><a class="hd-t" href="javascript: void(0);">Property Perfect Condominium</a></h2>
+            <nav class="main-nav">
+                <ul>
+                    <li class="active"><a href="#content-overview">Overview</a></li>
+                    <li><a href="#content-info">Project Info</a></li>
+                    <li><a href="#content-location">Location</a></li>
+                    <li><a href="#content-unit">Unit Type</a></li>
+                    <li><a href="#content-promotion">Promotion</a></li>
+                    <li><a href="#content-contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div><!--end header-->
+<!--main-->
+<section id="content-overview" class="section-home" >
+
+    <div class="main-gallery">
+        <ul id="mainGallery">
+            <li style="background-image: url(./images/gallery/the-lake-1.jpg); "></li>
+            <li style="background-image: url(./images/gallery/the-lake-2.jpg); "></li>
+        </ul>
+
+    </div>
+
+    <div class="wrp-detail">
+        <div class="bg-white"></div>
+        <article>
+            <ul class="nav-main-gallery">
+                <li><a id="mainGalleryPrev" class="hd-t" href="#"></a></li>
+                <li><a id="mainGalleryNext" class="hd-t" href="#"></a></li>
+            </ul>
+            <h1><strong>The Lake สาทร</strong>คอนโดพร้อมอยู่ <br>
+                จังหวะใหม่ของชีวิตเมือง</h1>
+            
+            <p>คอนโดเมืองที่ผสานความรื่นรมย์จากธรรมชาติ เข้ากับไลฟ์สไตล์ของคนเมืองได้อย่างลงตัว <br> สะดวกสบายด้วย BTS สายสีเขียว ส่วนต่อขยายสถานีวุฒากาศ และ MRT สายสีน้ำเงิน</p>
+            <p class="price">ราคาเริ่มต้น <span>1.49 ล้านบาท</span></p>
+            <p id="appointment" class="appointment"><a  href="#content-contact"><span>นัดเยี่ยมชมโครงการ</span></a></p>
+            <p class="appointment  fixed-this  hide-app"><a  href="#content-contact"><span>นัดเยี่ยมชมโครงการ</span></a></p>
+            <p class="share"><a href="#" onClick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><img src="./images/share.png"></a></p>
+            <span class="bg-white"></span>
+            <p class="sec-detail"><strong>เต็มที่กับช่วงเวลาพักผ่อน กับ <span>Clubhouse</span> ขนาดใหญ่ถึง <span>2,600</span> ตร.ม. <br></strong>สระว่ายน้ำ สไตล์ Beach, Fitness, ร้าน True Coffee, 7-Eleven<br> และพื้นที่พักผ่อนมากมายรอบทะเลสาบ พบนวัตกรรมการดีไซน์ เพื่อการใช้ชีวิตที่ลงตัว <br>ด้วยการออกแบบพื้นที่ใช้สอยให้ได้ประโยชน์สูงสุด พร้อมเฟอร์นิเจอร์คุณภาพ</p>
+            
+        </article>
+    </div>
+
+
+</section>
+
+<section id="content-info" class="project-info" data-speed="8" data-type="background"  data-offsety="100">
+    <h1>Project Info</h1>
+
+    <div class="project-info-wrp">
+        <div id="infoContentSlide" class="project-info--content">
+            <section class="project-info__hurry">
+                <p><strong><span>never</span><span>too late</span><span>too be cool</span></strong></p>
+                <p>อยากชิค...อย่าช้า </p>
+            </section>
+            <section class="project-info__sheet">
+                <div class="project-info__sheet--inner">
+                    <h2>รายละเอียดโครงการ</h2>
+                    <dl class="info-list">
+                        <dt>ที่ตั้ง</dt>
+                        <dd>แขวงบางหว้า เขตภาษีเจริญ กทม.</dd>
+                        <dt>เนื้อที่โครงการ</dt>
+                        <dd>พื้นที่โดยประมาณ 4-1-37.1 ไร่</dd>
+                        <dt>ลักษณะโครงการ</dt>
+                        <dd>เป็นอาคารพักอาศัย จำนวน 2 อาคาร อาคารเอ็น 8 ชั้น 206 ยูนิต,  อาคารโอ 8 ชั้น 111 ยูนิต</dd>
+                        <dt>จำนวนอาคาร</dt>
+                        <dd>1</dd>
+                    </dl>
+
+                    <h2>ลักษณะห้องชุด </h2>
+                    <dl class="info-list">
+                        <dt>ขนาด 1 ห้องนอน </dt>
+                        <dd>31.68-55.20 <span>ตร.ม.</span></dd>
+                    </dl>
+                </div>
+            </section>
+            <section class="project-info__faci">
+                <h2>เพื่อการใช้ชีวิตเมืองที่มีสไตล์กว่า</h2>
+                <p>สะดวกสบายกับไลฟ์สไตล์มอลล์ หน้าโครงการ Metro West Town แหล่งชิม ช็อป กิน ดื่ม ทันสมัยแห่งใหม่<br>ด้วยร้านค้า Brand Name, Restaurant, Cafe, Convenient Store, Bank และหลากหลายบริการที่จะเปิดให้บริการ soon</p>
+                <h2>สิ่งอำนวยความสะดวก</h2>
+                <ul id="projectInfoGalleryThumb" class="faci-list">
+                    <li><a href="#">SWIMMING<br> POOL</a><span class="close-slide">close slide</span></li>
+                    <li><a href="#">FITNESS</a><span class="close-slide">close slide</span></li>
+                    <li><a href="#">GOLF</a><span class="close-slide">close slide</span></li>
+                    <li><a href="#">PAVILION</a><span class="close-slide">close slide</span></li>
+                    <li><a href="#">SMART SPACE</a><span class="close-slide">close slide</span></li>
+                    <li><a href="#">BTS</a><span class="close-slide">close slide</span></li>
+                    <li><a href="#">SHOP</a><span class="close-slide">close slide</span></li>
+
+                </ul>
+
+            </section>
+        </div>
+    </div>
+    <ul class="project-info--nav__ar">
+        <li><a id="infoContentSlidePrev" class="hd-t" href="#">previous info</a></li>
+        <li><a id="infoContentSlideNext" class="hd-t" href="#">next info</a></li>
+    </ul>
+    <div class="wrp-project-info--gallery">
+        <div class="wrp-pointer">
+            <div class="pointer js-slide0"></div>
+        </div>
+        <div class="project-info--gallery">
+            <ul id="projectInfoGallery">
+
+                <li class="js-slide0" style="background: url(./images/gallery/project-info1.jpg);">
+                    <div class="detail-info-gallery gallery1">
+                        <div class="js-show-content info-content1">
+                            <h3>สระว่ายน้ำกว้างใหญ่สไตล์ Beach</h3>
+                            <p>พักผ่อนได้ทุกวัน กับสระว่ายน้ำสุดเท่ <br>เปิดรับมุมมองไร้ขอบเขตที่เชื่อมต่อวิวทะเลสาบกว้าง<br>ภายในโครงการ</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="js-slide1" style="background: url(./images/gallery/project-info2.jpg);">
+                    <div class="detail-info-gallery gallery2">
+                        <div class="js-show-content info-content1">
+                            <h3>Metro Paradise Club</h3>
+                            <p>Clubhouse ริมทะเลสาบกลางโครงการ 
+                                <br>
+                                ศูนย์รวมความสุขที่กว้างใหญ่ 
+                                <br>
+                                ครบครันทุกไลฟ์สไตล์ทันสมัยบนพื้นที่กว้างกว่า                                     <br>
+                                2,600 ตร.ม. ที่เสร็จสมบูรณ์                                     <br>
+                                พร้อมตอบรับทุกไลฟ์สไตล์                                    
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="js-slide2" style="background: url(./images/gallery/project-info3.jpg);">
+                    <div class="detail-info-gallery gallery3">
+                        <div class="js-show-content">
+                            <h3>Sky Putting</h3>
+                            <p>ความสุขชิดขอบฟ้า ทางเลือกที่ไม่ซ้ำแบบใคร 
+                                <br>
+                                พื้นที่พิเศษบนดาดฟ้า Metro Paradise 
+                                <br>
+                                Club ตกแต่งเป็นสนามพัทกอล์ฟ 
+                                <br>
+                                พร้อมมุมสบายๆ สำหรับพักผ่อนในร่ม
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="js-slide3" style="background: url(./images/gallery/project-info4.jpg);">
+                    <div class="detail-info-gallery gallery4">
+                        <div class="js-show-content">
+                            <h3>Pavilion Island</h3>
+                            <p>มุมผ่อนคลายกลางสายน้ำแห่งความสุข 
+                                <br>
+                                รับมุมมองสบายๆกว้างสุดสายตา 
+                                <br>
+                                ให้ชีวิตมีสีสันเพิ่มขึ้นด้วยกิจกรรมเบาๆ 
+                                <br>
+                                ในพาวิลเลียนกลางทะเลสาบ
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="js-slide4" style="background: url(./images/gallery/project-info5.jpg);">
+                    <div class="detail-info-gallery gallery5">
+                        <div class="js-show-content info-content1">
+                            <h3>ผ่อนคลายสบายๆ ในพื้นที่ส่วนตัว</h3>
+                            <p>Clubhouse ริมทะเลสาบกลางโครงการ
+                                <br>
+                                ในวันต่อไป พบกับพื้นที่ห้องกว้างที่ออกแบบ
+                                <br>
+                                ครบครันทุกฟังก์ชั่นได้อย่างลงตัว ทั้งห้องนอน
+                                <br>
+                                ห้องนั่งเล่น พื้นที่รับประทานอาหาร
+                                <br>
+                                Built in Pantry และห้องน้ำแยกส่วน
+                                <br>เปียก - ส่วนแห้ง
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+
+                <li class="js-slide5" style="background: url(./images/gallery/project-info6.jpg);">
+                    <div class="detail-info-gallery gallery6">
+                        <div class="js-show-content">
+                            <h3>ใกล้สาทร ใกล้รถไฟฟ้า</h3>
+                            <p>ครบทุกสิ่งสำหรับชีวิตสะดวกสบาย
+                                <br>
+                                ใกล้ทั้งรถไฟฟ้า BTS สายสีเขียว
+                                <br>
+                                ส่วนต่อขยายสถานีวุฒากาศ และ MRT
+                                <br>
+                                สายสีน้ำเงิน ใกล้แหล่งไลฟ์สไตล์ทันสมัย
+                                <br>
+                                และความสะดวกสบายทุกรูปแบบ
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="js-slide6" style="background: url(./images/gallery/project-info7.jpg);">
+                    <div class="detail-info-gallery gallery7">
+                        <div class="js-show-content info-content1">
+                            <h3>Metro West Town</h3>
+                            <p>แหล่งชิม ช้อป กิน ดื่ม ทันสมัยแห่งใหม่
+                                <br>
+                                บนพื้นที่มากกว่า 20,000 ตร.ม.
+                                <br>
+                                ที่ครบครันด้วยร้านค้า Brand Name...
+                                <br>
+                                Restaurant, Cafe, Bank, Convenient
+                                <br>
+                                Store, Education Center
+                                <br>
+                                และหลากหลายการบริการที่จะเปิดให้บริการ...
+                                <br>
+                                สะดวกที่สุด อยู่ด้านหน้าโครงการ
+                                <br>
+                                Coming Soon!
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+
+
+                ?>
+            </ul>
+        </div>
+    </div>
+    <ul class="project-info--nav__bt">
+        <li><a id="infoContentSlide2" href="#">Fact sheet</a></li>
+        <li><a id="infoContentSlide3" href="#">Facilities</a></li>
+    </ul>
+
+</section>
+
+<section id="content-location" class="map" data-speed="4" data-type="background" data-offsety="370" >
+    <div class="map--inner">
+        <div class="content-map">
+            <div style="background: url(./images/gph-map.jpg) top center no-repeat; height: 585px;">
+                 <div id="content-goo-map" style="display: ; ">
+                     <iframe width="100%" height="585" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=th&amp;geocode=&amp;q=13.708521,+100.450803&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=46.36116,87.011719&amp;ie=UTF8&amp;t=m&amp;ll=13.731464,100.408602&amp;spn=0.048776,0.087461&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://www.google.com/maps?f=q&amp;source=embed&amp;hl=th&amp;geocode=&amp;q=13.708521,+100.450803&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=46.36116,87.011719&amp;ie=UTF8&amp;t=m&amp;ll=13.731464,100.408602&amp;spn=0.048776,0.087461&amp;z=14" style="color:#0000FF;text-align:left">ดูแผนที่ขนาดใหญ่ขึ้น</a></small>
+                 </div>
+            </div>
+           
+        </div>
+        <div class="detail-map">
+            <ul class="map-menu">
+                <li>
+                    <a id="show-ghp-m" href="#">Graphic Map</a>
+                </li>
+                <li>
+                    <a id="show-goo-m" href="#">Google Map</a>
+                </li>
+                <li>
+                    <a href="#">Download</a>
+                </li>
+                <li>
+                    <a href="#">Print</a>
+                </li>
+            </ul>
+
+            <p class="map-more-detail">จังหวะใหม่ของชีวิตเมือง <br>ทำเลเท่ๆ เดินทางสบาย<br>ใกล้รถไฟฟ้า</p>
+            <h1>Location<strong>สะดวกทุกเส้นทางจากใจกลางกรุงเทพฯ</strong></h1>
+            <ul>
+                <li>•  ตั้งอยู่ใจกลางกรุงเทพฯ อย่างแท้จริง สะดวกทุกการเดินทางรอบทิศ ทั้งฝั่งพระนคร – ฝั่งธนบุรี 
+                    พร้อมใกล้แหล่งธุรกิจสองฝั่ง วงเวียนใหญ่ และ สีลม - สาทร เพียง 5 นาทีจากสะพานสาทร
+                </li>
+                <li>•  ใกล้รถไฟฟ้า BTS สายสีเขียว สถานีวุฒากาศ พร้อมบริการรถ Shuttle bus รับส่งระหว่างโครงการ 
+                    กับ สถานีรถไฟฟ้า*
+                </li>
+                <li>
+                    •  ใกล้รถ BRT สาทร – ราชพฤกษ์ และ MRT สายสีน้ำเงิน
+                </li>
+                <li>•  ใกล้ห้างสรรพสินค้า อาทิ เดอะมอลล์ ท่าพระ, เซ็นทรัล พระราม 2, The Circle ราชพฤกษ์, 
+                    เดอะมอลล์ บางแค
+
+                </li>
+            </ul>
+            <p>*หมายเหตุ: บริษัทฯ ขอสงวนสิทธิ์ในการเปลี่ยนแปลงเงื่อนไขการให้บริการรถ Shutter bus โดยไม่ต้องแจ้งให้ทราบล่วงหน้า</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="content-unit" class="unit-type" data-speed="6" data-type="background" data-offsety="450" >
+    <div class="unit-type--detail-wrp">
+        <div id="unitTypeDetail" class="unit-type--detail">
+            
+
+                
+                <article>
+                    <header>
+                        <div class="thumb">
+                            <ul id="slide-unit2" class="slide-unit">
+                                <li class="thumb--large">
+                                    <img src="./images/gallery/unit-type2-1.jpg">
+                                    <a data-fancybox-group="left-gallery2" class="left-fancybox zoom-img hd-t" href="./images/gallery/unit-type-z-2-1.jpg">zoom</a>
+                                </li>
+                                <li class="thumb--large">
+                                    <img src="./images/gallery/unit-type2-2.jpg">
+                                    <a data-fancybox-group="left-gallery2" class="left-fancybox zoom-img hd-t" href="./images/gallery/unit-type-z-2-2.jpg">zoom</a>
+                                </li>
+                                <li class="thumb--large">
+                                    <img src="./images/gallery/unit-type2-3.jpg">
+                                    <a data-fancybox-group="left-gallery2" class="left-fancybox zoom-img hd-t" href="./images/gallery/unit-type-z-2-3.jpg">zoom</a>
+                                </li>
+                                <li class="thumb--large">
+                                    <img src="./images/gallery/unit-type2-4.jpg">
+                                    <a data-fancybox-group="left-gallery2" class="left-fancybox zoom-img hd-t" href="./images/gallery/unit-type-z-2-4.jpg">zoom</a>
+                                </li>
+
+                            </ul>
+                            <ul id="pagi-slide-unit2" class="pagi-slide-unit">
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/gallery/unit-type-thumb2-1.jpg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/gallery/unit-type-thumb2-2.jpg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/gallery/unit-type-thumb2-3.jpg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/gallery/unit-type-thumb2-4.jpg">
+                                    </a>
+                                </li>
+
+                            </ul>
+
+
+                        </div>
+                        <p>
+                            <strong>Bedroom 31 Sq.m.</strong>
+                            <span>พื้นที่ส่วนตัวที่ให้คุณพักผ่อนได้ตามสไตล์ในแบบที่ต้องการ</span>
+                            
+                            <small>ห้องขนาด 31 ตร.ม. 1-ห้องนอน 1-ห้องรับแขก 1-ห้องครัว 1-ห้องน้ำ <br>มีทั้งบรรยากาศโซน Beach View และ Lake View</small>
+                        </p>
+                    </header>
+                    <section class="unit-function">
+                        <p><strong>พื้นที่ใช้สอย 31 ตร.ม.</strong></p>
+                        <article>
+                            <h2>Function</h2>
+                            <ul>
+                                <li>1 Bed Room</li>
+                                <li>1 Bath Room</li>
+                                <li>1 Living Room</li>
+                                <li>1 Kitchen Room</li>
+                            </ul>
+                        </article>
+                    </section>
+                    <section class="unit-plan" >
+                        <div>
+                            <h2>แปลนห้อง</h2>
+                            <p>Type 1 Bedroom <br>มีจำนวน 1 ขนาด</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>31 sq.m.</p>
+                                <a class="fancybox" href="./images/unit-type/large-plan/plan2-1.jpg" data-fancybox-group="gallery2" title="31 sq.m.">
+                                    <img src="./images/unit-type/small-plan/plan2-1.png">
+                                </a>
+                            </li>
+                            <li>
+                                <p>31 sq.m.</p>
+                                <a class="fancybox" href="./images/unit-type/large-plan/plan2-2.jpg" data-fancybox-group="gallery2" title="31 sq.m.">
+                                    <img src="./images/unit-type/small-plan/plan2-2.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+
+                <article>
+                    <header>
+                        <div class="thumb">
+                            <ul id="slide-unit" class="slide-unit">
+                                <li class="thumb--large">
+                                    <img src="./images/gallery/unit-type1-1.jpg">
+                                    <a data-fancybox-group="left-gallery1" class="left-fancybox zoom-img hd-t" href="./images/gallery/unit-type-z-1-1.jpg">zoom</a>
+                                </li>
+                                <li class="thumb--large">
+                                    <img src="./images/gallery/unit-type1-2.jpg">
+                                    <a data-fancybox-group="left-gallery1" class="left-fancybox zoom-img hd-t" href="./images/gallery/unit-type-z-1-2.jpg">zoom</a>
+                                </li>
+                                <li class="thumb--large">
+                                    <img src="./images/gallery/unit-type1-3.jpg">
+                                    <a data-fancybox-group="left-gallery1" class="left-fancybox zoom-img hd-t" href="./images/gallery/unit-type-z-1-3.jpg">zoom</a>
+                                </li>
+                            </ul>
+                            <ul id="pagi-slide-unit" class="pagi-slide-unit">
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/gallery/unit-type-thumb1-1.jpg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/gallery/unit-type-thumb1-2.jpg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/gallery/unit-type-thumb1-3.jpg">
+                                    </a>
+                                </li>
+
+                            </ul>
+
+
+                        </div>
+                        <p>
+                            <strong>1 Bedroom Superior 41, 44 Sq.m.</strong>
+                            <span>เต็มอิ่มกับมุมพักผ่อนส่วนตัวพร้อมความสุขที่กว้างกว่า</span>
+
+                            <small>ห้องขนาด 41, 44 ตร.ม. 1-ห้องนอน 1-ห้องรับแขก 1-ห้องครัว <br>1-ห้องน้ำ รองรับทั้ง Beach View และ Lake View</small>
+                        </p>
+                    </header>
+                    <section class="unit-function">
+                        <p><strong>พื้นที่ใช้สอย 41, 44 ตร.ม.</strong></p>
+                        <article>
+                            <h2>Function</h2>
+                            <ul>
+                                <li>1 Bed Room</li>
+                                <li>1 Bath Room</li>
+                                <li>1 Living Room</li>
+                                <li>1 Kitchen Room</li>
+                            </ul>
+                        </article>
+                    </section>
+                    <section class="unit-plan" >
+                        <div>
+                            <h2>แปลนห้อง</h2>
+                            <p>Type 2 Bedroom มีจำนวน 2 ขนาด</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>1 Bedroom Superior </p>
+                                <a class="fancybox" href="./images/unit-type/large-plan/plan1-1.jpg" data-fancybox-group="gallery1" title="1 Bedroom Superior ">
+                                    <img src="./images/unit-type/small-plan/plan1-1.png">
+                                </a>
+                            </li>
+                            <li>
+                                <p>1 Bedroom Superior </p>
+                                <a class="fancybox" href="./images/unit-type/large-plan/plan1-2.jpg" data-fancybox-group="gallery1" title="1 Bedroom Superior ">
+                                    <img src="./images/unit-type/small-plan/plan1-2.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+
+
+
+        </div>
+        <div class="nav-unit-type">
+            <h1>Unit Type</h1>
+            <h2>แบบห้องอื่นๆ ในโครงการ</h2>
+            <ul>
+                <li><a href="#">1 Bedroom</a></li>
+                <li><a href="#">1 Bedroom Superior</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="content-promotion" class="promotion" data-speed="8" data-type="background" data-offsety="440" >
+    <div class="promotion--inner">
+        <h1>Promotion</h1>
+        <div>
+            <h2><strong>The Lake @ Metro Park สาทร</strong></h2>
+            <p>คอนโดติดมอลล์ ใกล้รถไฟฟ้า <span class="ex-f">2</span> สาย</p>
+            <p>สะดวกสบายกับไลฟ์สไตล์มอลล์ หน้าโครงการ</p>
+            <hr>
+            <p><strong>19-27 ต.ค. นี้</strong></p>
+            <ul>
+                <li>ห้อง 41 ตร.ม. เริ่ม <span class="ex-f">2.1</span> ล้าน</li>
+                <li>ห้อง 31 ตร.ม. เริ่ม <span class="ex-f">1.69</span> ล้าน</li>
+            </ul>
+            <p class="pro-more-detail">เดอะเลค สาทร คอนโดพร้อมอยู่<br>
+แต่งสวย เฟอร์ฯครบ
+                <span>หลากหลายดีไซน์ สุดชิค พร้อมให้<br>
+คุณยกกระเป๋าเข้ามาอยู่ได้ทันที<br>
+เลือกได้ในแบบที่คุณชอบ</span>
+            </p>
+            <p class="regis-btn-wrp"><a class="regis-btn" href="#content-contact">ลงทะเบียน</a></p>
+        </div>
+
+
+    </div>
+</section>
+
+
+
+<section id="content-contact" class="contact" data-speed="4" data-type="background" data-offsety="1090" >
+    <div class="contact--form cl-b">
+        <h1>Contact Us</h1>
+        <p>กรุณากรอกข้อมูลด้านล่างให้ครบถ้วน เพื่อประโยชน์ในการรับข้อมูลของท่าน</p>
+        <form action="#">
+            <input type="text" value="ชื่อ" onblur="if (this.value == '') {this.value = 'ชื่อ';}" onfocus="if (this.value == 'ชื่อ') {this.value = '';}">
+            <input type="text" value="นามสกุล"  onblur="if (this.value == '') {this.value = 'นามสกุล';}" onfocus="if (this.value == 'นามสกุล') {this.value = '';}">
+            <input class="js-check-tel" maxlength="10" type="text" value="เบอร์โทรศัพท์มือถือ"  onblur="if (this.value == '') {this.value = 'เบอร์โทรศัพท์มือถือ';}" onfocus="if (this.value == 'เบอร์โทรศัพท์มือถือ') {this.value = '';}">
+            <input class="js-check-mail" type="text" value="อีเมล์"  onblur="if (this.value == '') {this.value = 'อีเมล์';}" onfocus="if (this.value == 'อีเมล์') {this.value = '';}">
+            <hr>
+            <input class="date datepicker" type="text" value="วันที่ต้องการเข้าชม" >
+            <div class="time-input-wrp">
+                <input class="time timeInput" type="text" value="เวลาที่ต้องการเข้าชม" >
+                <div class="time-input">
+                    <p>เลือกเวลาเข้าชม</p>
+                    <div class="time-input--item__hour">
+                        <input class="timeHour" value="10">
+                        <a class="hd-t upHour" href="#">up</a>
+                        <a class="hd-t downHour" href="#">down</a>
+                    </div>
+                    <span>:</span>
+                    <div class="time-input--item__minute">
+                        <input class="timeMinute" value="00">
+                        <a class="active minuteZ" href="#">00</a>
+                        <a class="minuteH" href="#">30</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="submit-btn-wrp">
+                <input type="submit" value="SUBMIT" >
+            </div>
+        </form>
+    </div>
+</section>
+
+<div id="popup-contact" class="contact--form  popup" style="display: none;">
+    <h1>นัดเยี่ยมชมโครงการ</h1>
+    <p>กรุณากรอกข้อมูลด้านล่างให้ครบถ้วน เพื่อประโยชน์ในการรับข้อมูลของท่าน</p>
+    <form action="#">
+        <input type="text" value="ชื่อ" onblur="if (this.value == '') {this.value = 'ชื่อ';}" onfocus="if (this.value == 'ชื่อ') {this.value = '';}">
+        <input type="text" value="นามสกุล"  onblur="if (this.value == '') {this.value = 'นามสกุล';}" onfocus="if (this.value == 'นามสกุล') {this.value = '';}">
+        <input class="js-check-tel" maxlength="10" type="text" value="เบอร์โทรศัพท์มือถือ"  onblur="if (this.value == '') {this.value = 'เบอร์โทรศัพท์มือถือ';}" onfocus="if (this.value == 'เบอร์โทรศัพท์มือถือ') {this.value = '';}">
+        <input class="js-check-mail" type="text" value="อีเมล์"  onblur="if (this.value == '') {this.value = 'อีเมล์';}" onfocus="if (this.value == 'อีเมล์') {this.value = '';}">
+        <hr>
+        <input class="date datepicker" type="text" value="วันที่ต้องการเข้าชม" >
+        <div class="time-input-wrp">
+            <input class="time timeInput" type="text" value="เวลาที่ต้องการเข้าชม" >
+            <div class="time-input">
+                <p>เลือกเวลาเข้าชม</p>
+                <div class="time-input--item__hour">
+                    <input class="timeHour" value="10">
+                    <a class="hd-t upHour" href="#">up</a>
+                    <a class="hd-t downHour" href="#">down</a>
+                </div>
+                <span>:</span>
+                <div class="time-input--item__minute">
+                    <input class="timeMinute" value="00">
+                    <a class="active minuteZ" href="#">00</a>
+                    <a class="minuteH" href="#">30</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="submit-btn-wrp">
+            <input type="submit" value="SUBMIT" >
+        </div>
+    </form>
+    <a class="close-light hd-t" href="javascript: void(0);" onclick="$.fancybox.close();">close light box</a>
+</div>
+<div id="popup-thank" class="pop-thank" style="display: none;">
+    <p>ขอบคุณสำหรับการลงทะเบียน<br>เพื่อรับข้อมูลสิทธิพิเศษก่อนใคร</p>
+
+</div>
+<div id="popup-alert-mail" class="pop-thank" style="display: none;">
+    <p>กรุณากรอกอีเมลให้ถูกต้อง</p>
+
+</div>
+
+<!--end main-->
+    <!--footer-->
+
+    <div class="main-footer-wrp">
+        <footer>
+            <div class="header-footer-wrp">
+                <div class="header-footer">
+                    <h1><a target="_blank" class="hd-t" href="http://www.pf.co.th">www.pf.co.th</a></h1>
+                    <h2>เลือกโครงการที่สนใจ</h2>
+                    <h3><a class="hd-t" href="#">The Sky</a></h3>
+                    <h3><a class="hd-t" href="#">Metro Sky</a></h3>
+                    <h3><a class="hd-t" href="#">The Lake</a></h3>
+                    <h3><a class="hd-t" href="#">Condo</a></h3>
+                </div>
+            </div>
+            <div class="footer-project-wrp  cl-b">
+                <div style="display: none;" class="footer-project">
+
+                    <section>
+
+                        <ul>
+                            <li><a target="_blank" href="http://www.pf.co.th/condominium/thesky/ratchada/overview.php">รัชดา</a></li>
+                            <li><a target="_blank" href="http://www.pf.co.th/condominium/thesky/sukhumvit/overview.php">สุขุมวิท</a></li>
+                        </ul>
+                    </section>
+                    <section>
+
+                        <ul>
+                            <li><a target="_blank" href="http://www.pf.co.th/condominium/metrosky/kaset/overview.php">เกษตร</a></li>
+                            <li><a target="_blank" href="http://www.pf.co.th/condominium/metrosky/pahonyothin/overview.php">พหลโยธิน</a></li>
+                            <li><a target="_blank" href="http://www.pf.co.th/promotion/Metropolitan_Condominium_Living.php">ประชาชื่น</a></li>
+                        </ul>
+                    </section>
+                    <section>
+
+                        <ul>
+                            <li><a target="_blank" href="http://www.pf.co.th/condominium/thelake/satorn/overview.php">สาทร</a></li>
+                        </ul>
+                    </section>
+                    <section>
+
+                        <ul>
+                            <li><a target="_blank" href="http://www.pf.co.th/condominium/icondo/kaset/overview.php">เกษตร</a></li>
+                            <li><a target="_blank" href="http://www.pf.co.th/condominium/icondo/ngamwongwan/overview.php">งามวงศ์วาน</a></li>
+                            <li><a target="_blank" href="http://www.pf.co.th/condominium/icondo/ngamwongwan2/overview.php">งามวงศ์วาน 2</a></li>
+                            <li><a target="_blank" href="http://www.pf.co.th/condominium/icondo/petchakasem39/overview.php">เพชรเกษม 39</a></li>
+                            <li><a target="_blank" href="http://www.pf.co.th/condominium/icondo/sukhapiban2/overview.php">สุขาภิบาล 2</a></li>
+                            <li><a target="_blank" href="http://www.pf.co.th/condominium/icondo/sukhumvit103/overview.php">สุขุมวิท 103</a></li>
+                            <li><a target="_blank" href="http://www.pf.co.th/condominium/icondo/sukhumvit105/overview.php">สุขุมวิท 105</a></li>
+                        </ul>
+                    </section>
+
+                </div>
+            </div>
+            <div class="footer-info-wrp">
+                <div class="footer-info">
+                    <p class="cus-ser">Customer Service <strong>1375</strong></p>
+                    <p>© 2013 Property Perfect Public Company Limited. All rights reserved. </p>
+                    <ul>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div><!--end footer-->
+
+
+
+
+
+</div><!--End main wrapper-->
+<script>
+    /*var s = skrollr.init({
+            smoothScrolling:true,
+            smoothScrollingDuration : 300,
+            forceHeight: false,
+            easing: {
+                vibrate: function(p) {
+                    return Math.sin(p * 3 * Math.PI);
+                }
+            }
+        });*/
+</script>
+</body>
+</html>
+
